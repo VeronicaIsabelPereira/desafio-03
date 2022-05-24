@@ -1,0 +1,53 @@
+@media (min-width: 768px){
+    .menu-texto {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        margin: 18px 17px;
+      }
+    
+      .menu-texto a {
+        text-decoration: none;
+        color: black;
+      }
+    
+  .buscador{
+      display:none
+  }
+  
+  .header {
+    flex-direction: row;
+    justify-content: space-around;
+
+  }
+  /*-----SECCION PRESENTACION----*/
+  .seccion-presentacion{
+    flex-direction: row-reverse;
+  
+  }
+  .descripcion{
+    text-align:justify
+  }
+    /*SECCION SERVICIOS----*/
+  .seccion-mis-servicios{
+    height: 604px ;
+  }
+  .mis-servicios{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  }
+  .servicio{
+    justify-content:flex-start;
+    border-color: red;
+  }
+  /*SECCION FOOTER---*/
+.footer{
+  flex-direction: row;
+}
+.redes{
+align-self: center;
+}
+.derechos{
+  align-self: center;
+}
+}
